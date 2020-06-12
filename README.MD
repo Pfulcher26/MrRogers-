@@ -18,11 +18,11 @@ The number 13 is replaced with "Won't you be my neighbor?"
 The number 21 is replaced with "Boop".
 The number 32 is be replaced with "Won't you be my neighbor?"
 
-### Specifications
+## Specifications
 
 | Behavior  | Input | Expected Output |
 |-----------|-------|-----------------|
-| Program will recieve number input from user | 2 | 2 |
+| Program will recieve user input as an integer | "2" | 2 |
 | Program will replace the number 1 with 'Beep!' | 1, 11 | 'Beep!', 'Beep!' 'Beep!' |
 | Program will replace the number 2 with 'Boop!' | 2, 20 | 'Boop!', 'Boop!' 0 |
 | Program will replace the number 3 with 'Won't you be my neighbor?' | 3 | 'Boop!', 'Boop!' 0 |
