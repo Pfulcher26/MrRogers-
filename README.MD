@@ -23,6 +23,12 @@ The number 32 is be replaced with "Won't you be my neighbor?"
 | Behavior  | Input | Expected Output |
 |-----------|-------|-----------------|
 | Program will recieve number input from user | 2 | 2 |
+| Program will replace the number 1 with 'Beep!' | 1, 11 | 'Beep!', 'Beep!' 'Beep!' |
+| Program will replace the number 2 with 'Boop!' | 2, 20 | 'Boop!', 'Boop!' 0 |
+| Program will replace the number 3 with 'Won't you be my neighbor?' | 3 | 'Boop!', 'Boop!' 0 |
+| Program will replace all digits of numbers that contain 1 with 'Beep!' | 21 | 'Beep!' |
+| Program will replace all digits of numbers that contain 2 with 'Boop!' | 32 | 'Boop!' |
+| Program will replace all digits of numbers that contain 3 with 'Won't you be my neighbor?' | 36 | "Won't you be my neighbor?" |
  
 
 ## Setup
