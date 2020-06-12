@@ -12,13 +12,3 @@ $(document).ready(function() {
     $("#output").text(newRange);
   });
 });
-
-/*let doubledArray = [];
-    result.forEach(function(element) {
-    if element === 1 {
-    alert("you crazy")
-  }
-  newarray.push(element);
-
-
-
