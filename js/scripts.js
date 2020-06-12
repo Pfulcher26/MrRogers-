@@ -10,6 +10,9 @@ $(document).ready(function() {
       return element;
     });
     string = newRange.toString();
-    $("#output").text(string);
+    newString = string.replace("1", "Beep!", "2");
+    newerString = newString.replace("2", "Boop!");
+    newestString = newerString.replace("3", "Won't you be my neighbor?")
+    $("#output").text(newerString);
   });
 });
