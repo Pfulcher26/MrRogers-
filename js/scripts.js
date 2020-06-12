@@ -7,14 +7,9 @@ $(document).ready(function() {
     const userNumber = $("#input1").val();
     const range = Array.from({length: userNumber}, (x,i) => i);
     const newRange = range.map(function(element) {
-      if (element === 1) {
-        element.replace(/1/g, "beep!");
-      } else if (element === 2) {
-        alert("Ho!");
-      } else {
-        return element * 2
-      }
+      return element;
     });
-    $("#output").text(newRange);
+    string = newRange.toString();
+    $("#output").text(string);
   });
 });
