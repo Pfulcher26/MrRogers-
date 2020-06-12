@@ -7,12 +7,13 @@ $(document).ready(function() {
     const userNumber = $("#input1").val();
     const range = Array.from({length: userNumber}, (x,i) => i);
     const newRange = range.map(function(element) {
-      return element;
+      if (element.includes(1)) === "true" {
+        range.splice(element, element, 'Beep!');
+      }
+        return element;   
     });
-    string = newRange.toString();
-    newString = string.replace("1", "Beep!", "2");
-    newerString = newString.replace("2", "Boop!");
-    newestString = newerString.replace("3", "Won't you be my neighbor?")
-    $("#output").text(newerString);
+    $("#output").text(newRange);
   });
 });
+
+ 
