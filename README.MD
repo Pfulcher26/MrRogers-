@@ -18,6 +18,13 @@ The number 13 is replaced with "Won't you be my neighbor?"
 The number 21 is replaced with "Boop".
 The number 32 is be replaced with "Won't you be my neighbor?"
 
+### Specifications
+
+| Behavior  | Input | Expected Output |
+|-----------|-------|-----------------|
+| Program will recieve number input from user | 2 | 2 |
+ 
+
 ## Setup
 
 _ENGLISH LANGUAGE VERSION_
