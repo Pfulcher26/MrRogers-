@@ -1,58 +1,41 @@
 # Dr Akutagawa's Language Support #
 
-#### PROGRAMMING LANGUAGE RECOMMENDATION WEBSITE 6/5/2020
-#### プログラミング言語の推奨Webサイト6/5/2020
+#### MR ROGER'S NEIGHBORHOOD 6/12/2020
 
 #### By Payne Fulcher 
 
-## Description 解説
+## Description  
 
-Dr Akutagawa's language support is a website built at the behest of the world famous Dr Akutagawa.  The website opens a brief mission statement from the good doctor himself before presenting users with a survey set composed of enigmatic variables.  The doctor then prescribes a professional recommendation for the programming language best suited to the user's responses. 
+Mr Roger's Neighborhood creates a web application that takes a number from a user and returns a range of numbers from 0 to the user inputted number with the following exceptions:
 
-For optimal experience, first select all answers on left and submit.  After that, do the same with all answers on the right.  Finally, mix up your answers.  Each combination results in a different language suggestion. 
+Numbers that contain a 1: all digits are replaced (all digits) with "Beep!"
+Numbers that contain a 2: all digits are replaced (all digits) with "Boop!"
+Numbers that contain a 3: all digits are replaced (all digits) with "Won't you be my neighbor?"
 
-芥川博士の言語サポートは、世界的に有名な芥川博士の要請により構築されたウェブサイトです。ウェブサイトは、不可解な変数で構成された調査セットをユーザーに提示する前に、良い医者自身からの簡単な使命声明を開きます。次に医師は、ユーザーの応答に最も適したプログラミング言語の専門家による推​​奨を処方します。
+These exceptions are written from least to most important. The first exception should apply unless the second exception does, and the same with the second and third. So, for example, in your finished program,
 
-最適なエクスペリエンスを得るには、まず左側のすべての回答を選択して送信してください。その後、右側のすべての回答で同じことを行います。最後に、答えを混ぜます。それぞれの組み合わせにより、異なる言語が提案されます。
+The number 13 is replaced with "Won't you be my neighbor?"
+The number 21 is replaced with "Boop".
+The number 32 is be replaced with "Won't you be my neighbor?"
 
-## Setup/Installation Requirements セットアップ/インストール要件
+## Setup
 
 _ENGLISH LANGUAGE VERSION_
 
-* Proceed to https://github.com/Pfulcher26/akutagawa
+* Proceed to https://github.com/Pfulcher26/mrrogers
 * Navigate to desktop in command line by entering 'cd Desktop'  
-* Clone to desktop by entering 'git clone https://github.com/Pfulcher26/akutagawa' in the command line 
-* Navigate to the folder 'akutagawa' by entering 'cd akutagawa' in the command line 
-* Once inside the akutagawa directory enter 'open index.html' to view the webpage in your browser
+* Clone to desktop by entering 'git clone https://github.com/Pfulcher26/mrrogers' in the command line 
+* Navigate to the folder 'mrrogers' by entering 'cd mrrogers' in the command line 
+* Once inside the 'mrrogers' directory enter 'open index.html' to view the webpage in your browser
+* Or view the full webiste at Pfulcher26.github.io/mrrogers- 
 
-_OR_
-
-* Enter www.drakutagawa.net in your preferred web browser 
-
-_JAPANESE LANGUAGE VERSION_ 
-
-* https://github.com/BrookeZK/akutagawaに進みます
-* 「cd Desktop」と入力して、コマンドラインでデスクトップに移動します。
-* コマンドラインで「git clone https://github.com/BrookeZK/pizza-shop」と入力して、デスクトップにクローンを作成します
-* コマンドラインで「cd akutagawa」と入力して、「akutagawa」フォルダに移動します。
-* akutagawaディレクトリに入ったら、「open index.html」と入力して、ブラウザでWebページを表示します。
-
-_または_
-
-* 任意のWebブラウザーに www.drakutagawa.net
-
-## Known Bugs 既知のバグ
+## Known Bugs 
 
 _No known bugs._
 
-_既知のバグはありません。_
+## Support and contact details  
 
-
-## Support and contact details サポートと連絡先の詳細
-
-_If there are any issues viewing the webpage, please e-mail akutagawaisaprofessionaldoctor@hotmail.com_
-
-_ウェブページの閲覧に問題がある場合は、メールでakutagawaisaprofessionaldoctor@hotmail.com_にメールを送信してください。
+_If there are any issues viewing the webpage, please contact Payne Fulcher via Github 
 
 ## Technologies Used 使用されるテクノロジー
 
@@ -62,5 +45,5 @@ _HTML、CSS、BOOTSTRAP、JS、JQUERY_
 
 *GPL*
 
-Copyright (c) 2020 **_Payne Fulcher ペイン・フルチャー__**
+Copyright (c) 2020 **_Payne Fulcher_**
  
